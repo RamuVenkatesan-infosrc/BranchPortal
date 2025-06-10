@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "BranchPortal.Controllers.BranchController",
+    "Method": "GetBranches",
+    "RelativePath": "api/Branch",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BranchPortal.Controllers.BranchController",
+    "Method": "AddBranch",
+    "RelativePath": "api/Branch",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "branchDto",
+        "Type": "BranchPortal.Dto.BranchPortal.Dto.BranchDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BranchPortal.Controllers.BranchController",
+    "Method": "GetBranchById",
+    "RelativePath": "api/Branch/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BranchPortal.Controllers.BranchController",
+    "Method": "UpdateBranch",
+    "RelativePath": "api/Branch/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "branchDto",
+        "Type": "BranchPortal.Dto.UpdateBranchDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BranchPortal.Controllers.BranchController",
+    "Method": "DeleteBranch",
+    "RelativePath": "api/Branch/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
