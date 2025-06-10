@@ -56,7 +56,7 @@ BranchPortal/
 }
 
 
-
+---
 Since you mentioned "Branch Portal," it seems like you want a README file similar to the "Employee Portal" one, but tailored for a branch-specific management system.
 
 Here's a README.md file designed for a hypothetical "Branch Portal" API, assuming a similar tech stack and CRUD operations for managing branches instead of employees.
@@ -119,7 +119,7 @@ BranchPortal/
   "DefaultConnection": "Host=localhost;Port=5432;Database=BranchDb;Username=postgres;Password=your_password"
 }
 
-
+---
 
 🔁 API Endpoints
 Method	Route	Description
@@ -129,7 +129,7 @@ POST	/api/branches	Add new branch
 PUT	/api/branches/{id}	Update branch
 DELETE	/api/branches/{id}	Delete branch
 
-
+---
 🆔 About GUID
 This project uses GUID (Globally Unique Identifier) as the primary key for branches instead of simple integers.
 
@@ -145,7 +145,7 @@ To fetch a branch:
 
 GET /api/branches/3f2504e0-4f89-11d3-9a0c-0305e82c3301
 The API automatically maps this GUID to a specific branch in the database.
-
+---
 📦 Example Branch Object
 JSON
 
@@ -156,7 +156,7 @@ JSON
   "managerName": "Jane Doe"
 }
 
-
+---
 🙌 Author
 [Your Name Here]
 Feel free to contribute, suggest improvements, or ask questions!
