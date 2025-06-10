@@ -36,8 +36,8 @@ BranchPortal/
 │   └── ApplicationDbContext.cs  --> EF Core DB Context
 │
 ├── Dto/
-│   ├── EmployeeDto.cs           --> DTO for creating
-│   └── UpdateEmployeeDto.cs     --> DTO for updating
+│   ├── BranchDto.cs           --> DTO for creating
+│   └── UpdateBranchDto.cs     --> DTO for updating
 ```
 
 ---
@@ -58,46 +58,15 @@ BranchPortal/
 
 ---
 
-# ✨ BranchPortal – API with ASP.NET Core & PostgreSQL ✨
+## 🔁 API Endpoints
 
-A simple **Branch Management API** built using:
-
-- 🚀 **ASP.NET Core Web API**  
-- 📦 **Entity Framework Core (Code-First)**  
-- 🐘 **PostgreSQL**  
-
-Supports basic **CRUD operations** (Create, Read, Update, Delete) to manage branches efficiently.
-
----
-
-## 🛠️ Tech Stack
-
-| 🧰 Technology           | 📝 Description                            |
-| -----------------------| ----------------------------------------|
-| 🕸️ ASP.NET Core Web API  | Backend framework                        |
-| 📚 Entity Framework Core | ORM for database access (Code-First)    |
-| 🐘 PostgreSQL           | Relational Database                      |
-| ⚙️ C#                   | Programming Language                     |
-
----
-
-## 📂 Project Structure
-
-```plaintext
-BranchPortal/
-│
-├── Controllers/
-│   └── BranchesController.cs    ➜ API endpoints
-│
-├── Model/
-│   └── Branch.cs                ➜ Branch entity
-│
-├── Data/
-│   └── ApplicationDbContext.cs  ➜ EF Core DB Context
-│
-├── Dto/
-│   ├── BranchDto.cs             ➜ DTO for creating branch
-│   └── UpdateBranchDto.cs       ➜ DTO for updating branch
+| Method | Route                 | Description        |
+| ------ | --------------------- | ------------------ |
+| GET    | `/api/Branch`      | Get all employees  |
+| GET    | `/api/Branch/{id}` | Get employee by ID |
+| POST   | `/api/Branch`      | Add new employee   |
+| PUT    | `/api/Branch/{id}` | Update employee    |
+| DELETE | `/api/Branch/{id}` | Delete employee    |
 
 ---
 
@@ -127,17 +96,6 @@ GET /api/employees/3f2504e0-4f89-11d3-9a0c-0305e82c3301
 The API automatically maps this GUID to a specific employee in the database.
 
 ---
-
-## 📦 Example Employee Object
-
-```json
-{
-  "name": "Ramu",
-  "email": "ramu@example.com",
-  "phoneNumber": "9876543210",
-  "salary": 50000
-}
-```
 
 ## 🙌 Author
 
