@@ -93,7 +93,7 @@ To fetch an employee:
 GET /api/employees/3f2504e0-4f89-11d3-9a0c-0305e82c3301
 ```
 
-The API automatically maps this GUID to a specific employee in the database.
+The API automatically maps this GUID to a specific Branchin the database.
 
 ---
 
