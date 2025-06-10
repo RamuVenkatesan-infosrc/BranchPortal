@@ -62,11 +62,11 @@ BranchPortal/
 
 | Method | Route                 | Description        |
 | ------ | --------------------- | ------------------ |
-| GET    | `/api/Branch`      | Get all employees  |
-| GET    | `/api/Branch/{id}` | Get employee by ID |
-| POST   | `/api/Branch`      | Add new employee   |
-| PUT    | `/api/Branch/{id}` | Update employee    |
-| DELETE | `/api/Branch/{id}` | Delete employee    |
+| GET    | `/api/Branch`      | Get all Branches  |
+| GET    | `/api/Branch/{id}` | Get Branch by ID |
+| POST   | `/api/Branch`      | Add new Branch   |
+| PUT    | `/api/Branch/{id}` | Update Branch   |
+| DELETE | `/api/Branch/{id}` | Delete Branch   |
 
 ---
 
